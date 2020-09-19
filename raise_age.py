@@ -26,12 +26,12 @@ if age <= 0:
 
 else:
 
-    # Calculate age quotient
+    # Calculate 100 age ratio
 
-    ageq = 100 / age
+    age_ratio = 100 / age
 
-    # Print the ageq quotient value with 3 digits or spaces on the left and two 
+    # Print the age_ratio value with 3 digits or spaces on the left and two 
     # on the right of the decimal point.
 
-    print ('\nYour "100 age quotient" is: {: 3.2f}'.format(ageq))
+    print ('\nYour "100 age ratio" is: {: 3.2f}'.format(age_ratio))
 

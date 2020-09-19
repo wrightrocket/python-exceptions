@@ -1,0 +1,17 @@
+$ py -3 handled.py
+Number to divide 1000 by: 1
+1000.000000 divided by 1.000000 equals 1000.000000
+We are finished
+
+wrigh@x751s MINGW64 ~/src/python-exceptions (master)
+$ py -3 handled.py
+Number to divide 1000 by: 0
+Bad input or infinity
+We are finished
+
+wrigh@x751s MINGW64 ~/src/python-exceptions (master)
+$ py -3 handled.py
+Number to divide 1000 by: a
+Bad input or infinity
+We are finished
+

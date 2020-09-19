@@ -1,5 +1,5 @@
 '''
-Example of why exception handling may be needed.
+Example of how generic exception handling may be done.
 '''
 __author__ = 'Keith Wright'
 # Assign numerator by default to 1000

@@ -1,0 +1,23 @@
+wrigh@x751s MINGW64 ~/src/python-exceptions (master)
+$ py -3 practice_error_1.py
+  File "practice_error_1.py", line 2
+    print colors[5]
+          ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(colors[5])?
+
+wrigh@x751s MINGW64 ~/src/python-exceptions (master)
+$ py -3 practice_error_2.py
+Traceback (most recent call last):
+  File "practice_error_2.py", line 2, in <module>
+    hue.sort()
+AttributeError: 'tuple' object has no attribute 'sort'
+
+wrigh@x751s MINGW64 ~/src/python-exceptions (master)
+$ py -3 practice_error_3.py
+To cause an exception, enter a non-numeric value like 'no'
+Enter your age: no
+Traceback (most recent call last):
+  File "practice_error_3.py", line 5, in <module>
+    if (age >= 16):
+TypeError: '>=' not supported between instances of 'str' and 'int'
+

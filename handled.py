@@ -10,11 +10,12 @@ user_input = input('Number to divide 1000 by: ')
 
 # Convert user_input to a floating point value for the denominator
 try:
-    # Put statement that may cause exceptions in the try clause
+    # Put statements that may cause exceptions in the try clause
 
+    # Will cause ValueError with non-numeric values as user_input
     denominator = float(user_input)
     
-    # Calculuator result as numerator divided by denominator
+    # Will cause ZeroDivisionError with zero (0) value as user_input
     result = numerator / denominator
 
 except Exception:

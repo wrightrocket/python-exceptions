@@ -5,6 +5,7 @@ __author__ = 'Keith Wright'
 
 # Import the traceback module to be able show details about exceptions
 import traceback
+import sys
 
 # Assign numerator by default to 1000
 numerator = 1000
@@ -26,16 +27,24 @@ while trying:
         result = numerator / denominator
 
     except Exception:
-        # Display an traceback message
+        # print the traceback
         print(traceback.format_exc())
+
+        # Assign info from detailed system exception information
+        exception, description, tracebk = sys.exc_info()
+        print("What you input caused this exception: {0}".format(exception))
+        print("The description of this exception: '{0}'".format(description))
+
+
     else:
         # Show the successful result 
         # Display the calculation and the result
         print ('{:d} divided by {: .3f} equals {:+4.5f}'.format(numerator, denominator, result))
         trying = False
     finally:
-        # Display at message after exiting the try block
+        # Display at message at the end of the try block depending on if still trying
         if trying:
-            print("Try again, there was an error with your last input")
+            print("\nTry again, there was an error with your last input\n")
         else:
-            print("Thank you for providing valid input")
+            print("\nThank you for providing valid input")
+            print("Goodbye!")

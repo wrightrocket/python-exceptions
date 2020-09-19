@@ -24,7 +24,7 @@ except Exception:
 else:
     # Show the successful result 
     # Display the calculation and the result
-    print ('{:f} divided by {:f} equals {:f}'.format(numerator, denominator, result))
+    print ('{:d} divided by {: .3f} equals {:+4.5f}'.format(numerator, denominator, result))
 finally:
     # Display at message after exiting the try block
     print("We are finished")

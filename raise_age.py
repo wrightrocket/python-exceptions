@@ -1,6 +1,6 @@
 ''' Example of raising an exception where it might make sense 
 
-If you wanted to calculate 100.0 divided by a person's age, then a value larger than zero
+If you wanted to calculate 100 divided by a person's age, then a value larger than zero
 would make sense. This program will raise a ZeroDivisionError if the age input is less than
 or equal to zero.
 '''
@@ -22,7 +22,7 @@ if age <= 0:
 
     raise ZeroDivisionError
 
-# If it false that the age <= 0, then print the age divided by 100.0.
+# If it false that the age <= 0, then print the age divided by 100.
 
 else:
 

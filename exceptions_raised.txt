@@ -40,12 +40,3 @@ Traceback (most recent call last):
     denominator = float(user_input)
 ValueError: could not convert string to float: 'a'
 
-$ py -3 nothandled.py
-Number to divide 1000 by:       0 [sig] bash 1862! sigpacket::process: Suppressing signal 18 to win32 process (pid 0)
-
-Traceback (most recent call last):
-  File "nothandled.py", line 9, in <module>
-    user_input = input('Number to divide 1000 by: ')
-  File "C:\Python38\lib\encodings\cp1252.py", line 22, in decode
-    def decode(self, input, final=False):
-KeyboardInterrupt

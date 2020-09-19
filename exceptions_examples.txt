@@ -1,0 +1,62 @@
+wrigh@x751s MINGW64 ~/src/python-exceptions (master)
+$ py -3 nothandled.py
+Number to divide 1000 by: 3
+1000.000000 divided by 3.000000 equals 333.333333
+
+wrigh@x751s MINGW64 ~/src/python-exceptions (master)
+$ py -3 nothandled.py
+Number to divide 1000 by: 0
+Traceback (most recent call last):
+  File "nothandled.py", line 15, in <module>
+    result = numerator / denominator
+ZeroDivisionError: float division by zero
+
+wrigh@x751s MINGW64 ~/src/python-exceptions (master)
+$ py -3 nothandled.py
+Number to divide 1000 by: a
+Traceback (most recent call last):
+  File "nothandled.py", line 12, in <module>
+    denominator = float(user_input)
+ValueError: could not convert string to float: 'a'
+
+wrigh@x751s MINGW64 ~/src/python-exceptions (master)
+$ py -3 nothandled.py
+Number to divide 1000 by:       0 [sig] bash 1862! sigpacket::process: Suppressing signal 18 to win32 process (pid 0)
+
+Traceback (most recent call last):
+  File "nothandled.py", line 9, in <module>
+    user_input = input('Number to divide 1000 by: ')
+  File "C:\Python38\lib\encodings\cp1252.py", line 22, in decode
+    def decode(self, input, final=False):
+KeyboardInterrupt
+
+wrigh@x751s MINGW64 ~/src/python-exceptions (master)
+$ #$ py -3 nothandled.py
+
+wrigh@x751s MINGW64 ~/src/python-exceptions (master)
+$ py -3 nothandled.py
+Number to divide 1000 by: 0
+Traceback (most recent call last):
+  File "nothandled.py", line 15, in <module>
+    result = numerator / denominator
+ZeroDivisionError: float division by zero
+
+wrigh@x751s MINGW64 ~/src/python-exceptions (master)
+$ py -3 nothandled.py
+Number to divide 1000 by: a
+Traceback (most recent call last):
+  File "nothandled.py", line 12, in <module>
+    denominator = float(user_input)
+ValueError: could not convert string to float: 'a'
+
+wrigh@x751s MINGW64 ~/src/python-exceptions (master)
+$ py -3 nothandled.py
+Number to divide 1000 by:       0 [sig] bash 1862! sigpacket::process: Suppressing signal 18 to win32 process (pid 0)
+
+Traceback (most recent call last):
+  File "nothandled.py", line 9, in <module>
+    user_input = input('Number to divide 1000 by: ')
+  File "C:\Python38\lib\encodings\cp1252.py", line 22, in decode
+    def decode(self, input, final=False):
+KeyboardInterrupt
+

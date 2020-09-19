@@ -8,5 +8,5 @@ colors = ["red", "blue", "green"]
 
 # print the sixth element in the colors list
 
-print(colors)
+print(colors[5])
 

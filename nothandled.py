@@ -15,4 +15,4 @@ denominator = float(user_input)
 result = numerator / denominator
 
 # Display the calculation and the result
-print ('%f divided by %f equals %f'.format(numerator, denominator))
+print ('{:f} divided by {:f} equals {:f}'.format(numerator, denominator, result))
